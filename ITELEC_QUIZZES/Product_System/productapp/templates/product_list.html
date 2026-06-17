@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Product List</title>
+</head>
+<body>
+
+    <h1>Products</h1>
+
+    {% for product in products %}
+        <p>{{ product.name }} - ₱{{ product.price }}</p>
+    {% endfor %}
+
+</body>
+</html>
